@@ -1,0 +1,164 @@
+.card-img-top{
+       transition: 0.3s ease-in-out;
+     }
+    .card-img-top:hover{
+      transform:scale(1.1)
+    }
+    body,h1,html,header
+{
+padding: 0;
+margin : 0;
+}
+
+.row { margin: 1em auto; 
+    
+    width: 95%; 
+    font: 18px/1.5 sans-serif;
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     flex-wrap: wrap;
+  
+      }
+      .row div{
+        margin: 10px;
+      }
+      .row_gallerie{
+       width: 95%; 
+    font: 18px/1.5 sans-serif;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-wrap: wrap;
+     flex-direction: ; 
+      }
+      p{
+  font-size: 2 em;
+  text-align: center;
+  }
+body
+{ 
+
+display: block; 
+flex-direction: column; 
+font-family: sans-serif;
+background: #222;
+
+}
+.row2,.card2 {
+display: flex;
+}
+h1.titre 
+{
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-size: 200px;
+  margin-bottom: 100px;
+   
+}
+.gallerie{
+  padding: 20px;
+}
+.card-img-top{
+  margin-top: 15px;
+}
+ul{
+margin-top: 200px;
+display : block;
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+
+
+}
+li{
+margin: 10px;
+}
+li a{
+text-transform: uppercase;
+font-size: 2em;
+text-shadow: 5px 5px 5px black;
+text-decoration: none;
+color: white;
+}
+.header{
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5); 
+  justify-content: center;
+  align-items: center;
+flex-direction: column; 
+}
+header{
+  height : 800px;
+  width: auto;
+  background: url("header.jpg") no-repeat scroll;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  }
+  h2.services{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2em;
+  }
+  footer
+  {
+    width: 100%;
+    background-color: #2f4d6c;
+    border-radius: 100px;
+  }
+footer ul {
+  display: block;
+}
+div.card
+{
+  border-radius: 10px;
+}
+p{
+  font-size: 50px;
+}
+ul.section li {
+  font-size: 30px;
+}
+
+ @media only screen and (max-width: 925px){
+p
+{
+
+}
+ul li a
+{
+  font-size: 20px;
+}
+
+  h1.titre{
+    font-size: 80px;
+}
+}
+margin-top: 60px;
+margin-bottom: 60px;
+  } 
+  ul{
+    font-size: 15px;
+  }
+  header{
+    height: 400px;
+  }
+  footer
+  {
+    border-radius: 30px;
+  }
+  .row,.row_gallerie{
+     justify-content: center;
+  align-items: center;
+  }
+  .row div,.row_gallerie div{
+    display: block;
+  }
+  }
